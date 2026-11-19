@@ -1,6 +1,6 @@
 # 数据设置
 
-MyPaste extension `com.mypaste.data-settings` (version `1.0.2`).
+MyPaste extension `com.mypaste.data-settings` (version `1.0.3`).
 
 备份与恢复、历史导入导出、设置文件与诊断；界面由随包扩展提供，文件选择、校验与写入仍由宿主完成。
 

@@ -37,7 +37,10 @@
     background: var(--surface-solid);
     color: var(--ink);
     font: 13px/1.5 var(--font-body);
-    padding: 22px 24px 28px;
+    /* No side gutter of its own: the settings canvas already supplies one
+       (host D-1085, D-1115), and a second one would inset this page against
+       every built-in panel beside it. */
+    padding: 22px 0 28px;
     overflow: auto;
   }
   .page { max-width: 760px; }
